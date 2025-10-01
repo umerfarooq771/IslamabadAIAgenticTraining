@@ -32,7 +32,7 @@ response = client.chat.completions.create(
         },
         {
             "role": "user",
-            "content": "We're in a great IBM Event in Barcelona. In my free time, what should I see?",
+            "content": "We're in a great IBM Event in Islamabad. In my free time, what should I see?",
         }
     ]
 )
@@ -53,4 +53,5 @@ print("-"*50)
 print(f"Prompt tokens (input sent):      {response.usage.prompt_tokens}")
 print(f"Completion tokens (AI response): {response.usage.completion_tokens}")
 print(f"Total tokens (input + output):   {response.usage.total_tokens}")
+
 print("-"*50 + "\n")
