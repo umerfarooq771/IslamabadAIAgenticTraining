@@ -44,7 +44,7 @@ async def start():
     # Send a welcome message to the user
     await cl.Message(
         content="🤖 Hello! I'm your AI assistant. I'm here to help you with any questions you may have. "
-                "For example, you can ask me about what to see in Barcelona during your free time at this great IBM event.",
+                "For example, you can ask me about what to see in Pakistan during your free time at this great IBM event.",
         author="Assistant"
     ).send()
     
